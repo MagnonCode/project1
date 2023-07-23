@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Source+Code+Pro&display=swap');
+
+
+.container{
+    padding:0 3rem;
+}
+
+.heading{
+    font-family: 'Kanit', sans-serif;
+    color:rgb(0, 0, 0);
+    font-size:2rem;
+  }
+
+  .about {
+    margin:1rem;
+    font-family: 'Source Code Pro', monospace;
+  }
+
+  .hr{
+    width:60%;
+    border:1px solid black;
+    margin:2rem auto;
+  }
+
+  .imagewrapper{
+    display: flex;
+    justify-content: center;
+    margin:0.5rem 0 0.2rem 0 ;
+  }
+  
+  .imagewrapper img{
+    border-radius: 2rem;
+    border:1px rgb(0, 0, 0) dashed;
+  }

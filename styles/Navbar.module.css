@@ -1,0 +1,21 @@
+.navbar{
+    display:flex;
+    background:black;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    list-style: none;
+    font-weight: 600;
+    color:white;
+    height:3rem;
+  }
+  
+  .navbar li{
+    margin:0.5rem;
+    background:linear-gradient(rgb(66, 66, 66), transparent);
+    padding:0.5rem;
+    border-radius: 0.2rem;
+    font-size: small;
+    cursor: pointer;
+  }
+  

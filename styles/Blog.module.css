@@ -1,0 +1,46 @@
+.button{
+  margin: 0.6rem 0;
+    outline: none;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 0.6rem;
+    background: black;
+    color: white;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+
+.blogs{
+    margin:0.5rem 0;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+    .blogs h1{
+    font-size:2.5rem;
+    margin: 1rem auto;
+    }
+
+.blogItem{
+    margin:0.4rem ;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    max-width:60%;
+    min-width: 20rem;
+    border: 1px dashed black;
+    margin:1rem auto;
+    }
+
+    
+    .blogItem h2{
+      font-size: 1.25rem;
+      margin:0.3rem 0;
+    }
+    .blogItem p{
+      font-size: 1.1rem;
+      font-style: oblique;
+    }
+    

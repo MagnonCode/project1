@@ -1,0 +1,20 @@
+
+
+.heading{
+margin: auto;
+text-align: center;
+}
+
+.container{
+    padding:1rem;
+    width:90%;
+    min-width: 23rem;
+    margin:auto;
+}
+.blog{
+    margin:1rem 0.3rem;
+    font-size: 1.3rem;
+}
+.hr{
+    margin:1rem;
+}
