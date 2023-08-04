@@ -13,6 +13,7 @@ const Contact = () => {
 
   const handleSumbit = async (e)=>{
     e.preventDefault()
+    setTimeout(()=>alert('Thank you for contacting us'),1000)
     let response = await fetch('/api/postcontact',{
       method:'POST',
       body:JSON.stringify(formData),

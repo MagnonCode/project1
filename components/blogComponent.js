@@ -23,12 +23,13 @@ const BlogComponent = ({blogData,totalBlogs}) => {
     const data = await res.json();
     setBlogs([...data]);},1300)
   }
+
   
   return (
 <InfiniteScroll
   dataLength={blogs.length} //This is important field to render the next data
   next={fetchData}
-  hasMore={blogs.length != totalBlogs}
+  hasMore={false} //blogs.length != totalBlogs
   loader={<Spinner/>}
   className={styles.blogs}
   endMessage={
